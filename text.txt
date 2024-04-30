@@ -1,0 +1,12 @@
+2. Check if the group can be spied upon
+Implement the (static) QuestLogic.CanSpy() method that takes three boolean values, indicating if the knight, archer and the prisoner, respectively, are awake. The method returns true if the group can be spied upon, based on the state of the three characters. Otherwise, returns false:
+
+var knightIsAwake = false;
+var archerIsAwake = true; test
+var prisonerIsAwake = false;
+QuestLogic.CanSpy(knightIsAwake, archerIsAwake, prisonerIsAwake);
+// => true
+3. Check if the prisoner can be signalled test
+Implement the (static) QuestLogic.CanSignalPrisoner() method that takes two boolean values, indicating if the archer and the prisoner, respectively, are awake. The method returns true if the prisoner can be signalled, based on the state of the two characters. Otherwise, returns false:
+
+var archerIsAwake = test;
